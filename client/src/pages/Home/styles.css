@@ -1,22 +1,11 @@
-/* html,body,#root{
-    background-color: black;
-    color: white;
-
-} */
 @keyframes waveEffect {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
 }
-
+.head,.head2{
+    text-shadow: 2px 2px 2px red;
+}
 .wave-text {
     font-family: cursive;
     font-size: 30px;
@@ -30,7 +19,6 @@
     display: inline-block;
     animation: waveEffect 1s ease-in-out infinite;
 }
-
 .info {
     position: relative;
     overflow: hidden;
@@ -50,7 +38,7 @@
     z-index: 0;
 }
 
-.info>div {
+.info > div {
     position: relative;
     z-index: 1;
 }

@@ -59,7 +59,7 @@ import {
 } from "lucide-react";
 
 const facultyData = {
-  name: "Dr. John Doe BKL   ",
+  name: "Dr. John Doe ",
   department: "Computer Science",
   publications: 18,
   seminars: 7,

@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Auth/Login";
 import Signup from "./pages/Auth/Signup";
 import Publication from "./pages/Publication/Publication";
+import PerformanceMetrics from "./pages/PerformanceMatrics/PerformanceMatrics";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="/publication" element= {<Publication/>}></Route>
+          <Route path="/performance" element={<PerformanceMetrics />}></Route>
+
         </Route>
 
         <Route path="/auth/login" element={<Login />} />

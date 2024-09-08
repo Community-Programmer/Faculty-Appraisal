@@ -76,16 +76,16 @@ const Navbar: React.FC = () => {
               Vision
             </Link>
             <Link
-              to="/"
+              to="/publication"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
-              Resources
+              Publication
             </Link>
             <Link
-              to="/"
+              to="/performance"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
-              Community
+              Performance
             </Link>
             <Link
               to="/"
@@ -129,16 +129,16 @@ const Navbar: React.FC = () => {
                   Vision
                 </Link>
                 <Link
-                  to="/"
+                  to="/publication"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  Resources
+                  Publication
                 </Link>
                 <Link
-                  to="/"
+                  to="/performance"
                   className=" text-muted-foreground hover:text-foreground"
                 >
-                  Community
+                  Performance
                 </Link>
                 <Link
                   to="/"

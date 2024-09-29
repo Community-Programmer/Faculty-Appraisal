@@ -29,19 +29,19 @@ import {
 const Home = () => {
   const faqItems = [
     {
-      question: "What is XYZ?",
+      question: "What is EduTrackr?",
       answer:
-        "XYZ is a platform designed to streamline and modernize the faculty appraisal process. It allows faculty members to log their professional activities and provides administrators with a centralized system to evaluate and manage appraisals effectively.",
+        "EduTrackr is a platform designed to streamline and modernize the faculty appraisal process. It allows faculty members to log their professional activities and provides administrators with a centralized system to evaluate and manage appraisals effectively.",
     },
     {
-      question: "How do I log my activities in XYZ?",
+      question: "How do I log my activities in EduTrackr?",
       answer:
         "Faculty members can log in to the platform and access the 'Self-Appraisal Form.' You can then enter details about your research publications, event participation, seminars, projects, and lectures.",
     },
     {
       question: "How are my research publications updated?",
       answer:
-        "XYZ can automatically track and update your research publications, similar to Google Scholar. You can also manually add any publications not captured by the system.",
+        "EduTrackr can automatically track and update your research publications, similar to Google Scholar. You can also manually add any publications not captured by the system.",
     },
     {
       question: "How do administrators access and manage appraisals?",
@@ -54,14 +54,14 @@ const Home = () => {
         "Yes, you can access and update your previous entries through your dashboard. All logged activities are saved, and you can make modifications whenever needed.",
     },
     {
-      question: "How secure is XYZ?",
+      question: "How secure is EduTrackr?",
       answer:
-        "XYZ employs robust security measures, including encryption and access controls, to ensure that all data remains confidential and is only accessible to authorized personnel.",
+        "EduTrackr employs robust security measures, including encryption and access controls, to ensure that all data remains confidential and is only accessible to authorized personnel.",
     },
     {
-      question: "How do I receive notifications from XYZ?",
+      question: "How do I receive notifications from EduTrackr?",
       answer:
-        "XYZ provides system notifications, such as reminders and alerts, that can be accessed through your dashboard. You can also choose to receive email notifications.",
+        "EduTrackr provides system notifications, such as reminders and alerts, that can be accessed through your dashboard. You can also choose to receive email notifications.",
     },
   ];
 
@@ -72,7 +72,7 @@ const Home = () => {
           Revolutionize Faculty Self-Appraisal
         </h2>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Empower your academic journey with "XYZ" - the cutting-edge platform
+          Empower your academic journey with "EduTrackr" - the cutting-edge platform
           for comprehensive faculty performance tracking and career advancement.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -188,7 +188,7 @@ const Home = () => {
               <CardHeader>
                 <CardTitle>Empowering Faculty Excellence</CardTitle>
                 <CardDescription>
-                  Unlock your full potential with "XYZ"
+                  Unlock your full potential with "EduTrackr"
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -324,7 +324,7 @@ const Home = () => {
         </h3>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           Join thousands of faculty members and institutions already benefiting
-          from "XYZ".
+          from "EduTrackr".
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700">

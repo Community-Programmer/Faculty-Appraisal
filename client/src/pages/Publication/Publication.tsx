@@ -11,61 +11,61 @@ interface Publication {
 }
 
 const profileData = {
-  name: "DR. ANONYMOUS",
-  email: "@bmsit.ac.in",
+  name: "DR. ADRIAN MILLER",
+  email: "adrian.miller@university.edu",
   role: "Assistant Professor Department of Computer Science and Engineering",
-  institution: "BMS Institute of Technology and Management Bangalore",
+  institution: "University of London",
 };
 
 const researchInterests = [
-  'Machine Learning',
+  'Artificial Intelligence',
   'Medical Informatics',
-  'Data Analytics',
-  'WSN',
+  'Big Data Analytics',
+  'Robotics',
 ];
 
 const stats = [
-  { label: 'SCOPUS PUBLICATIONS', value: 13 },
-  { label: 'SCHOLAR CITATIONS', value: 380 },
-  { label: 'SCHOLAR H-INDEX', value: 7 },
-  { label: 'SCHOLAR I10-INDEX', value: 5 },
+  { label: 'SCOPUS PUBLICATIONS', value: 20 },
+  { label: 'SCHOLAR CITATIONS', value: 450 },
+  { label: 'SCHOLAR H-INDEX', value: 10 },
+  { label: 'SCHOLAR I10-INDEX', value: 8 },
 ];
 
 const publications: Publication[] = [
   {
-    title: "Smart Home Automation Using IoT",
-    authors: "MSSKR Mrs Lakshmi B N, Dr. Ashwini N",
-    journal: "Journal of Scholastic Engineering Science and Management 2 (3), 78-87",
+    title: "AI-Driven Smart Home Systems",
+    authors: "Dr. Adrian Miller, Dr. Sarah Dawson",
+    journal: "Journal of Technological Innovation 5 (2), 150-160",
     year: 2023
   },
   {
-    title: "Automated Online Proctoring Using Artificial Intelligence",
-    authors: "AKG Ashwini N , Aditya Rana , Lakshmi B N , Aditya Abrol , Vinutha K",
-    journal: "JOURNAL OF PHARMACEUTICAL NEGATIVE RESULTS 14 (SPECIAL ISSUE 02), 2840–2847",
+    title: "Proctoring with AI: Challenges and Solutions",
+    authors: "Adrian Miller, Emily Roberts, Lucas Fernandez",
+    journal: "International Journal of AI Research 14 (6), 130-140",
     year: 2023
   },
   {
-    title: "Brain tumor image classification using brain tumor in the context of medical image processing",
-    authors: "MP Lakshmi B N, V. Sumathi, S Ananthi",
-    journal: "Bulletin of Environment, Pharmacology and Life Sciences 11 (5), 50-55",
+    title: "Brain Tumor Detection Using Deep Learning",
+    authors: "Sarah Dawson, Adrian Miller",
+    journal: "Journal of Medical Imaging 10 (4), 85-92",
     year: 2022
   },
   {
-    title: "Assessment of Copyright Protection Using Watermarking and Cryptography for Online Text Information",
-    authors: "BN Lakshmi, N Ashwini, A Abrol",
-    journal: "BP International",
+    title: "Cryptographic Methods for Digital Content Security",
+    authors: "Lucas Fernandez, Adrian Miller",
+    journal: "Cybersecurity Journal 8 (3), 120-130",
     year: 2021
   },
   {
-    title: "DEEP NEURAL NETWORK APPLICATION FOR MEDICAL IMAGE PROCESSING",
-    authors: "RKGANDDLBN HEMALATHA C1*, NELSON KENNEDY BABU C2",
-    journal: "International journal of biology Pharmacy and allied sciences 10 (special",
+    title: "Neural Networks in Medical Image Analysis",
+    authors: "Dr. Emma Thompson, Adrian Miller",
+    journal: "Journal of Medical Informatics 7 (1), 100-110",
     year: 2021
   },
   {
-    title: "AUTO HYPERTENSION DETECTION AND HEALTH CLASSIFICATION USING BIO-INSPIRED MACHINE LEARNING ALGORITHMS",
-    authors: "MSANDSPK LAKSHMI B N1*, SAKTHIVEL S2 , KARRA MAHESWARI3 , BALAKRISHNAN C4",
-    journal: "International journal of biology Pharmacy and allied sciences 10 (special",
+    title: "Health Monitoring with Bio-Inspired AI Algorithms",
+    authors: "Dr. Lucas Fernandez, Adrian Miller",
+    journal: "Health Informatics Journal 11 (5), 60-70",
     year: 2021
   }
 ];
@@ -102,9 +102,9 @@ const Component: React.FC = () => {
         <div className='flex flex-col ml-4'>
           <h2 className="text-2xl font-bold">EDUCATION</h2>
           <ul>
-            <li className='text-xl'>BE (CSE)</li>
-            <li className='text-xl'>M.Tech (CSE)</li>
-            <li className='text-xl'>Ph.D</li>
+            <li className='text-xl'>BSc (Computer Science)</li>
+            <li className='text-xl'>MSc (Data Science)</li>
+            <li className='text-xl'>Ph.D (AI and Robotics)</li>
           </ul>
         </div>
       </div>
